@@ -12,6 +12,8 @@
 		FD8593B41AC4BFED00B9260B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD8593B31AC4BFED00B9260B /* Images.xcassets */; };
 		FD8593B71AC4BFED00B9260B /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = FD8593B51AC4BFED00B9260B /* MainMenu.xib */; };
 		FD8593C31AC4BFED00B9260B /* Lite_BrowserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FD8593C21AC4BFED00B9260B /* Lite_BrowserTests.m */; };
+		FD8593CD1AC4C01800B9260B /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD8593CC1AC4C01800B9260B /* WebKit.framework */; };
+		FD8593CF1AC4C02400B9260B /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD8593CE1AC4C02400B9260B /* Cocoa.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +37,8 @@
 		FD8593BC1AC4BFED00B9260B /* Lite BrowserTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lite BrowserTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD8593C11AC4BFED00B9260B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FD8593C21AC4BFED00B9260B /* Lite_BrowserTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Lite_BrowserTests.m; sourceTree = "<group>"; };
+		FD8593CC1AC4C01800B9260B /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		FD8593CE1AC4C02400B9260B /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +46,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD8593CF1AC4C02400B9260B /* Cocoa.framework in Frameworks */,
+				FD8593CD1AC4C01800B9260B /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,6 +64,8 @@
 		FD8593A01AC4BFEC00B9260B = {
 			isa = PBXGroup;
 			children = (
+				FD8593CE1AC4C02400B9260B /* Cocoa.framework */,
+				FD8593CC1AC4C01800B9260B /* WebKit.framework */,
 				FD8593AB1AC4BFEC00B9260B /* Lite Browser */,
 				FD8593BF1AC4BFED00B9260B /* Lite BrowserTests */,
 				FD8593AA1AC4BFEC00B9260B /* Products */,
